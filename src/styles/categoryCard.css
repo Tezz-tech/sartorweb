@@ -1,0 +1,37 @@
+.category-card-image-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.category-card-image{
+    background-color: var(--bg-grey);
+border-radius: 10px;
+height: 250px;
+/* width: 16%; */
+border: 1px solid var(--bg-grey);
+}
+
+.category-card-image figure{
+    
+    display: flex;
+
+align-items: center;
+justify-content: center;
+height: 150px;
+width: 100%;
+}
+
+.category-card-image figure img{
+height: 100px;
+width: 100%;object-fit: contain;
+}
+
+.category-card-image h4{
+    text-align: center;
+    font-size: 18px;
+    padding: 0px 20px;
+    font-weight: 600;
+}
+

@@ -1,0 +1,21 @@
+.professional-card figure{
+    height: 370px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.professional-card figure img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.professional-card h5{
+    font-size: 18px;
+}
+
+
+.professional-card h6{
+    font-size: 13px;
+    font-weight: 600;
+}

@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family:  Plus Jakarta Sans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+:root{
+  --primary-color: #615793;
+  --bg-green: 
+  #36ab9c;
+  --bg-dark: #474958;
+  --bg-grey: 
+  
+#ececec;
+  --bg-light: #F8F8FA; 
+  --bg-purple: #7e36f4;
+
+}
