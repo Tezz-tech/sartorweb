@@ -1,0 +1,25 @@
+.explore-btns{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.explore-btns button{
+    padding: 7px 20px;
+    background-color: transparent;
+    border: 1px solid var(--bg-grey);
+    border-radius: 10px ;
+    font-weight: 600;
+    color: var(--bg-dark);
+}
+
+.explore-btns button:focus{
+    background-color: var(--bg-grey);
+    color: black;
+    border: none ;
+}
+
+.explore-location{
+  color: var(--bg-purple);
+}

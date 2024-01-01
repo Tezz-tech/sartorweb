@@ -1,0 +1,56 @@
+.business-pages p{
+    font-weight: 700;
+    color: var(--bg-dark);
+}
+
+.business-right{
+    background-color: var(--bg-grey);
+    border-radius: 20px;
+    padding: 30px 20px;
+}
+
+.review-star{
+    height: 80px;
+    width: 80px;
+    margin: 0;
+}
+
+.review-star img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.business-detail h1{
+    font-size: 60px;
+}
+
+.business-detail h5{
+    font-size: 20px;
+}
+
+.business-detail p{
+    font-size: 19px;
+}
+
+.business-detail button{
+   width: 70%;
+   height: 60px;
+   font-weight: 600;
+   background-color: black;
+   color: var(--bg-light);
+   border-radius: 10px;
+}
+
+.business-logo{
+    border: 2px solid var(--bg-grey) ;
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+}
+
+.business-logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

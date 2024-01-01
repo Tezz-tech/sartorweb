@@ -1,0 +1,93 @@
+.sign-in-left figure{
+    margin: 0;
+    width: 100%;
+}
+
+.sign-in-left figure img{
+    width: 100%;
+    height: 100%;
+}
+
+.sign-in-right{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sign-in-right h1{
+    font-size: 40px;
+}
+
+.signin-email{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: var( --bg-grey);
+    margin: 20px 0px;
+}
+
+.signin-password{
+    width: 100%;
+    /* padding: 15px; */
+    border-radius: 10px;   
+    background-color: var( --bg-grey);
+    border: none;
+}
+
+.signin-password input{
+    /* height: 100%; */
+    padding: 15px;
+
+    width: 95%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.signin-password button{
+    border: none;
+}
+
+.signin-login{
+    width: 100%;
+    height: 50px;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: black;
+    color: var(--bg-light);
+    border: none;
+}
+
+.sigin-in-continue-with{
+    color: var(--bg-grey);
+}
+
+.signin-with-google{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+.signin-with-google button figure{
+    margin: 0;
+}
+
+.signin-with-google button figure img{
+    margin: 0;
+    object-fit: contain;
+}
+
+.sign-in-apple{
+    width: 28%;
+    height: 65px;
+    border-radius: 20px;
+    background-color: var(--bg-grey);
+    border: none;
+}

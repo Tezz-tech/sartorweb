@@ -1,0 +1,49 @@
+.join-our-community{
+    margin-top: 150px;
+    padding: 70px 0px;
+    background-color: var( --bg-sea);
+}
+
+
+.update-release h6{
+    margin: 20px 0px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.update-release h2{
+    margin: 20px 0px;
+    font-size: 45px;
+    /* font-weight: 400; */
+}
+
+.join-our-community-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.join-our-community-form input{
+    width: 400px;
+    border: none;
+    height: 60px;
+    padding: 10px;
+    outline: none ;
+    background-color: var(--bg-grey);
+    border-radius: 10px;
+}
+
+.join-our-community-form input::placeholder{
+    font-weight: 500;
+}
+
+.join-our-community-form button{
+    border: none;
+    height: 60px;
+    padding: 10px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: black;
+    color: var(--bg-light);
+}

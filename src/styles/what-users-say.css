@@ -1,0 +1,37 @@
+.see-what-our-users-say{
+    margin-top: 70px;
+}
+
+.see-whats-new{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.what-users-say{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.what-users-say h4{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.what-user-sau-comp{
+    font-weight: 400;
+}
+
+.what-users-say figure:nth-child(2){
+    height: 65px ;
+    width: 65px ;
+    border-radius: 50%;
+    background-color: var(  --secondary-color);
+    overflow: hidden;
+}
+
+.what-users-say figure:nth-child(2) img{
+    height: 100% ;
+    width: 100% ;
+}
