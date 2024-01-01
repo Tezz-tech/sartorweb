@@ -13,13 +13,14 @@ code {
 
 :root{
   --primary-color: #615793;
+  --secondary-color: 
+  #b3bbfd;
   --bg-green: 
   #36ab9c;
   --bg-dark: #474958;
-  --bg-grey: 
-  
-#ececec;
+  --bg-grey: #ececec;
   --bg-light: #F8F8FA; 
   --bg-purple: #7e36f4;
-
+  --bg-sea: #F7F8FD;
+  --bg-darkBlue: #08052F;
 }

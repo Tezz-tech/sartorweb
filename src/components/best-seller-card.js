@@ -1,59 +1,14 @@
-import flash from "../assets/images/flash-drive.svg"
-import razor from "../assets/images/electric-razor.svg";
-import washing from "../assets/images/washing-machine.svg";
-import power from "../assets/images/power-station.svg";
+
 import "../styles/best-seller-card.css"
-export default function BestSellerCard() {
+export default function BestSellerCard({data, handleClick, btnTitle, next}) {
 
         
-  const data = [
-    {
-      img: flash,
-      name: "Flash Drive",
-      price: "₦ 4,999"
-    },
-    {
-        img: razor,
-        name: "Flash Drive",
-        price: "₦ 4,999"
-    },
-    {
-        img: washing,
-        name: "Flash Drive",
-        price: "₦ 4,999"
-    },
-    {
-        img: power,
-        name: "Flash Drive",
-        price: "₦ 4,999"
-    },
-    {
-        img: flash,
-        name: "Flash Drive",
-        price: "₦ 4,999"
-      },
-      {
-          img: razor,
-          name: "Flash Drive",
-          price: "₦ 4,999"
-      },
-      {
-          img: washing,
-          name: "Flash Drive",
-          price: "₦ 4,999"
-      },
-      {
-          img: power,
-          name: "Flash Drive",
-          price: "₦ 4,999"
-      },
-  ];
 
   return (
     <div className="row">
         {
             data.map((data)=> (
-                <div className="col-lg-3  best-seller-card mb-5">
+                <div className="col-lg-3  best-seller-card mb-5 ">
                     <figure>
                     <img src={data.img} alt="" />
                     </figure>
@@ -61,7 +16,7 @@ export default function BestSellerCard() {
                     <h5>{data.name} </h5>
                     <button>{data.price}</button>
                     </div>
-                    <div className="d-flex align-items-center justify-content-between best-seller-btns">
+                    <div className="d-flex align-items-center justify-content-between best-seller-btns mb-5">
                     <button className="">
                         <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -96,6 +51,15 @@ export default function BestSellerCard() {
 
             ))
         }
+
+{handleClick && (
+        <div className="professional-card-btn mt-5 mb-5">
+          <button onClick={handleClick}>
+            {btnTitle}
+            <img src={next} alt="" className="ml-3" />
+          </button>
+        </div>
+      )}
     </div>
   );
 }

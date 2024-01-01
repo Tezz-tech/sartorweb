@@ -1,5 +1,6 @@
+
 .professional-card figure{
-    height: 370px;
+    height: 270px;
     border-radius: 30px;
     overflow: hidden;
 }
@@ -17,5 +18,34 @@
 
 .professional-card h6{
     font-size: 13px;
+    font-weight: 600;
+}
+
+.rate figure{
+    height: 20px ;
+    width: 20px;
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
+.rate figure img{
+    height: 100% ;
+    width: 100%;
+    object-fit: contain;
+ 
+}
+
+.professional-card-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.professional-card-btn button{
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: var(--bg-light);
+    background-color: var(--bg-purple);
     font-weight: 600;
 }
