@@ -8,7 +8,7 @@ import SignUp from './pages/sign-in';
 import TopProfessionals from './pages/explore-top-professionals';
 import BestSeller from './pages/explore-best-seller';
 import Businesses from './pages/businesses';
-import SignIn from './pages/sign-in';
+import SignIn from './pages/sign-up';
 function App() {
   return (
     <div className="App">
