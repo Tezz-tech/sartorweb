@@ -1,8 +1,16 @@
 .navigation-container{
-    height: 100px;
+    /* height: 100px; */
+    padding: 20px 0px;
     background-color: var(--bg-grey);
-    display: flex ;
+    display: block ;
     align-items: center;
+    justify-content: center;
+
+}
+
+.nav-background{
+    background-color: var(--bg-grey);
+    position: relative;
 }
 
 .nav-logo figure{
@@ -62,7 +70,7 @@ font-weight: 700;
 }
 
 .nav-search{
-    width: 25%;
+    width: 55%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -110,4 +118,45 @@ font-weight: 700;
     padding: 9px 25px;
     border-radius: 10px;
     font-weight: 700;
+}
+
+
+.nav-link {
+    color: black!important;
+    font-weight: 600;
+}
+
+.btn-outline-light {
+    --bs-btn-color:black;
+    --bs-btn-border-color: black;
+}
+
+.bg-dark {
+    --bs-bg-opacity: 0;
+}
+
+.navbar-dark .navbar-toggler {
+    background: black;
+    color: black;
+    border-color: rgba(255,255,255,.1);
+}
+
+.signupbtn{
+    background-color: black;
+    color: var(--bg-light);
+    padding: 9px 25px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.login{
+        border: none;
+        background-color: transparent;
+        font-weight: 600;
+}
+
+@media(max-width: 400px){
+    .cart-and-search{
+        display:block;
+    }
 }
