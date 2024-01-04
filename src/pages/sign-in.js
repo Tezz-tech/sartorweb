@@ -8,7 +8,7 @@ import { IoIosEye } from "react-icons/io";
 import "../styles/sign-up.css"
 import { useNavigate } from "react-router-dom"
 
-export default function SignIn(){
+export default function Login(){
     const navigate = useNavigate()
     return(
         <div className="">
@@ -24,8 +24,8 @@ export default function SignIn(){
                     </div>
                     <div className="col-lg-6 sign-in-right">
                         <div className="w-75">
-                            <h1 className="mb-4">Create an account</h1>
-                            <p className="w-75">Once you've created an account, you can continuing shopping</p>
+                            <h1 className="mb-4">Welcome Back</h1>
+                            {/* <p className="w-75">Once you've created an account, you can continuing shopping</p> */}
                             <form action="" >
                                 <input type="text" className="signin-email" placeholder="Email address" />
                                 <div className="d-flex align-items-center justify-content-between signin-password">
@@ -60,7 +60,6 @@ export default function SignIn(){
                                 </button>
                             </div>
 
-                            <h6 className=" mt-4">By clicking the “create account” or any of the social medial button you agree to our Terms of Service and Privacy Policy</h6>
 
                             <p className="mt-4">Don’t have an account?  <span className="fw-bolder" onClick={()=> navigate("/sign-in")}>Sign in </span></p>
                         </div>

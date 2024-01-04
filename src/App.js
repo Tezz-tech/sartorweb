@@ -8,18 +8,19 @@ import SignUp from './pages/sign-in';
 import TopProfessionals from './pages/explore-top-professionals';
 import BestSeller from './pages/explore-best-seller';
 import Businesses from './pages/businesses';
-import SignIn from './pages/sign-up';
+import SignIn from './pages/sign-in';
+import Register from './pages/sign-up';
 function App() {
   return (
     <div className="App">
         <BrowserRouter>
             <Routes>
                 <Route path='/' element={<Home/>}/>
-                <Route path='/sign-up' element={<SignUp/>}/>
+                <Route path="/auth/register" element={<Register/>}/>
                 <Route path='/top-professtionals' element={<TopProfessionals/>}/>
                 <Route path='/best-seller' element={<BestSeller/>}/>
                 <Route path='/business' element={<Businesses/>}/>
-                <Route path='/sign-in' element={<SignIn/>}/>
+                <Route path='/auth/login' element={<SignIn/>}/>
             </Routes>
         </BrowserRouter>
     </div>

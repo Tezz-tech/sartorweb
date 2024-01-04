@@ -21,16 +21,18 @@
 .open-store-details h2{
     font-weight: 700;
     font-size: 35px;
-    width: 60%;
+    /* width: 60%; */
+    margin: auto;
 }
 
 
 .open-store-details h6{
     /* font-weight: 700; */
     /* font-size: 35px; */
-    width: 60%;
+    /* width: 60%; */
+    margin: auto;
     color: var(--bg-dark);
-    margin: 20px 0px;
+    /* margin: 20px 0px; */
 }
 
 .open-store-details button{
@@ -40,6 +42,7 @@
     /* font-weight: 500; */
     background-color: black;
     color : var(--bg-light);
-    border-radius: 30px;
+    border-radius: 10px;
     border: none ;
+    text-align: center;
 }
