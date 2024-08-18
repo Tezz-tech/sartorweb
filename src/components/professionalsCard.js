@@ -1,21 +1,21 @@
 import React from 'react';
 import star from '../assets/icons/star-rate.svg';
 import '../styles/professionals.css';
+import { IoLogoLinkedin } from "react-icons/io5";
 
 export default function Professionals({ data, handleClick, btnTitle, next }) {
   return (
     <div className="row">
       {data.map((item) => (
-        <div className="col-lg-3 mb-5 professional-card" key={item.name}>
+        <div className="col-lg-3 mb-5 professional-card" data-aos="zoom-in" key={item.name}>
           <figure>
             <img src={item.img} alt="" />
           </figure>
           <h5>{item.name}</h5>
           <h6>{item.title}</h6>
           <div className="rate d-flex align-items-center justify-content-start">
-            <figure>
-              <img src={star} alt="" />
-            </figure>
+           
+              <IoLogoLinkedin style={{fontSize: "20px"}}/>
             <h6>{item.rate}</h6>
           </div>
         </div>

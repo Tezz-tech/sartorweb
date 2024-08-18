@@ -1,7 +1,8 @@
 
 .professional-card figure{
     height: 270px;
-    border-radius: 30px;
+    width: 270px;
+    border-radius: 50%;
     overflow: hidden;
 }
 

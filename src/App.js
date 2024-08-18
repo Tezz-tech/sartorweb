@@ -4,24 +4,29 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/home';
-import SignUp from './pages/sign-in';
-import TopProfessionals from './pages/explore-top-professionals';
-import BestSeller from './pages/explore-best-seller';
-import Businesses from './pages/businesses';
-import SignIn from './pages/sign-in';
-import Register from './pages/sign-up';
+import About from './pages/About'
+import Services from './pages/Services';
+import Blogs from './pages/Blogs';
+import StartBusiness from './pages/StartBusiness';
+import Navigation from "./common/navigation";
+import Footer from "./common/footer";
+import Consultation from './pages/Consultation';
+import Login from './pages/sign-in';
 function App() {
   return (
     <div className="App">
         <BrowserRouter>
+        <Navigation/>
             <Routes>
                 <Route path='/' element={<Home/>}/>
-                <Route path="/auth/register" element={<Register/>}/>
-                <Route path='/top-professtionals' element={<TopProfessionals/>}/>
-                <Route path='/best-seller' element={<BestSeller/>}/>
-                <Route path='/business' element={<Businesses/>}/>
-                <Route path='/auth/login' element={<SignIn/>}/>
+                <Route path='/about' element={<About/>}/>
+                <Route path='/services' element={<Services/>}/>
+                <Route path='/blogs' element={<Blogs/>}/>
+                <Route path='/consultation' element={<Consultation/>}/>
+                <Route path='/start-a-business' element={<StartBusiness/>}/>
+                <Route path='/login' element={<Login/>}/>
             </Routes>
+            <Footer />
         </BrowserRouter>
     </div>
   );

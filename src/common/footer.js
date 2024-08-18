@@ -1,11 +1,10 @@
-import logo from "../assets/icons/logo-white.svg"
+import logo from "../assets/icons/logo.webp"
 import twitter from "../assets/icons/twitter.svg"
 import facebook from "../assets/images/facebook-icon.svg"
 import Be from "../assets/icons/Be.svg"
 import website from "../assets/icons/website.svg"
 import { Link } from "react-router-dom"
 import "../styles/footer.css"
-import secureIcon from "../assets/icons/secure-icon.svg"
 export default function Footer(){
     return(
         <div className="footer-container">
@@ -14,12 +13,11 @@ export default function Footer(){
                     <div className="col-lg-7">
                         <div className="d-flex align-items-center justify-content-start  footer-logo mb-3">
                             <figure className="mr-2">
-                                <img src={logo} alt="" />
+                            <img src={logo} alt="Logo" />
                             </figure>
-                            <h2>5amas</h2>
                         </div>
-                        <p className="footer-writeup">At 5amas, we redefine online shopping by fostering trust between businesses and customers. Our platform offers secure escrow services that ensure a seamless and trustworthy transaction experience. Whether you're a small business or a large enterprise, join us to enhance your online presence and build lasting customer relationships.</p>
-
+                        <p className="footer-writeup">At Sartor Limited, we take pride in being a premium management consulting and technology firm dedicated to steering entrepreneurs and SMEs towards success. Our unwavering commitment to excellence, coupled with innovative solutions, positions us as the partner of choice for those seeking to thrive in the dynamic business landscape of Africa. Together, we embark on a journey of growth, resilience, and prosperity.</p>
+                        <button data-aos="zoom-in" className="book"><a href="https://calendar.app.google/A7b9Pyojjv1rj6sc7">Book a Consultation</a></button>
                         <div className="d-flex align-items-center justify-content-start footer-social-media">
                             <figure className="mr-3">
                                 <img src={twitter} alt="" />
@@ -27,21 +25,14 @@ export default function Footer(){
                             <figure className="mr-3">
                                 <img src={facebook} alt="" />
                             </figure>
-                            <figure className="mr-3">
-                                <img src={Be} alt="" />
-                            </figure>
-                            <figure className="mr-3">
-                                <img src={website} alt="" />
-                            </figure>
                         </div>
                     </div>
                     <div className="col-lg-5">
                         <ul className="footer-liat">
-                        <li><Link className="link-tag">Home</Link></li>
-                        <li><Link className="link-tag">Explore</Link></li>
-                        <li><Link className="link-tag">Help</Link></li>
-                        <li><Link className="link-tag">Open your store</Link></li>
-                        <li><Link className="link-tag">About Use</Link></li>
+                        <li><Link to="/" className="link-tag">Home</Link></li>
+                        <li><Link to="/about" className="link-tag">About</Link></li>
+                        <li><Link to="/services" className="link-tag">Our Services</Link></li>
+                        <li><Link to="/blogs" className="link-tag">Blogs</Link></li>
                         <li><Link className="link-tag">Term & condition</Link></li>
                         <li><Link className="link-tag">Privacy</Link></li>
                         
@@ -52,13 +43,8 @@ export default function Footer(){
                 <hr className="mb-5"/>
 
                 <div className="footer-copyRight ">
-                    <p>5amas © Copyrigt 2023</p>
-
+                    <p>Sartor Limited © Copyrigt 2024</p>
                     <div className="d-flex align-items-center footer-copyRight-secure ">
-                    <figure className="mr-3">
-                        <img src={secureIcon} alt="" />
-                    </figure>
-                    <p>Secure payments via Lemon Squeezy</p>
                     </div>
                 </div>
             </div>

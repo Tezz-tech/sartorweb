@@ -1,23 +1,29 @@
-import homeBanner from "../assets/images/home-banner.svg"
-import "../styles/home.css"
-export default function HomeBanner(){
-    return (
-        <div className="container">
+import React from "react";
+import "../styles/home.css";
+import sartorVid from "../assets/images/sartor-video.mp4"
 
-            <div className=" row">
-                <div className=" col-lg-6 d-flex align-items-center justify-content-center home-banner-left">
-                    <div>
-                      <h3 className="">Secure Your Online Shopping Experience with 5amas</h3>
-                        <p>Trustworthy Escrow Services Connecting Businesses and Customers</p>
-                        <button>Explore Business </button>
-                    </div>
-                </div>
-                <div className="col-lg-6 home-banner-right">
-                    <figure>
-                         <img src={homeBanner} alt="" />
-                    </figure>
-                </div>
-            </div>
+export default function HomeBanner() {
+  return (
+    <div className="container-fluid">
+    <div className="home-banner1">
+      <video autoPlay loop muted className="background-video">
+        <source src={sartorVid} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div className="container text-container2">
+        <div className="row">
+          <div className="col-md-6">
+            <h1> Management Consulting and Technology at it’s finest.</h1>
+            <p>Welcome to Sartor Limited, your trusted partner in management
+      consulting and technology solutions.</p>
+      <p> At Sartor, we specialize in
+      empowering entrepreneurs and managers of Small and Medium
+      Enterprises (SMEs) to turn their vision into reality.</p>
+          </div>
         </div>
-    )
+      </div>
+    </div>
+
+    </div>
+  );
 }

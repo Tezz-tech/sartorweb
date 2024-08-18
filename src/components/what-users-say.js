@@ -13,19 +13,19 @@ export default function WhatUserSay(){
   const data = [
     {
       img: sam,
-      review: "My products have reached a level of engagements i never thought possible",
+      review: "The team was very responsive and communicative throughout the entire consulting process.",
       name: "Sam Smith",
       comp: "CEO @ Compan"
     },
     {
         img: mylah,
-        review: "Working with the 5amas technology has been a pleasure from start to finish!",
+        review: "Established a strong rapport with clients, making collaboration seamless.",
         name: "Mylah Nylah",
         comp: "CEO @ Midori"
       },
       {
         img: carley,
-        review: "Sam Smith trustworthy providers via 5amas, I am very happy",
+        review: "Demonstrated innovative solutions that positively impacted our business.",
         name: "Carley Jones",
         comp: "CEO @ Aigen"
       },
@@ -34,7 +34,7 @@ export default function WhatUserSay(){
     return(
         <div className="">
             <div>
-                <h2 className="text-center see-whats-new">See what our users are saying</h2>
+                <h2 className="text-center see-whats-new">See What Our Clients Are Saying</h2>
                 <div className="row mt-5">
                     {
                         data.map((data)=>(
