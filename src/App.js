@@ -12,6 +12,8 @@ import Navigation from "./common/navigation";
 import Footer from "./common/footer";
 import Consultation from './pages/Consultation';
 import Login from './pages/sign-in';
+import CreateBlog from './pages/CreateBlog';
+import SingleBlog from './pages/SingleBlog';
 function App() {
   return (
     <div className="App">
@@ -25,6 +27,9 @@ function App() {
                 <Route path='/consultation' element={<Consultation/>}/>
                 <Route path='/start-a-business' element={<StartBusiness/>}/>
                 <Route path='/login' element={<Login/>}/>
+                <Route path='/create-blog' element={<CreateBlog/>}/>
+                <Route path='/blog/:id' element={<SingleBlog/>}/>
+                
             </Routes>
             <Footer />
         </BrowserRouter>
