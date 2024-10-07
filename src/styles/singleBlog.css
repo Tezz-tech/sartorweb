@@ -103,7 +103,7 @@
     border-radius: 50%;
 }
 
- .blog-content p, li{
+ .blog-content p, .blog-content li{
     color: rgb(255, 255, 255);
     margin-left: 50px;
     font-size: 18px;

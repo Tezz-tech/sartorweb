@@ -37,7 +37,7 @@ const ServicesComponent = () => {
             <p>Business registration</p>
             <p>Business lunch</p>
             <p>We’ve got you covered!</p>
-            <button style={{backgroundColor: "#182659", padding: "15px 25px", borderRadius:"15px", border: "none"}} className="book"><a style={{textDecoration: "none", color: "white", fontSize: "18px", fontWeight: "bold"}} href="https://calendar.app.google/A7b9Pyojjv1rj6sc7">Get Started</a></button>
+            <button style={{backgroundColor: "#182659", padding: "15px 25px", borderRadius:"15px", border: "none"}} className="book"><a style={{textDecoration: "none", color: "white", fontSize: "18px", fontWeight: "bold"}} href="/start-business">Get Started</a></button>
           </div>
           <div
             className="col-md-5 p-5 bg-white shadow mb-sm-3 sartor-sm-mb"
@@ -51,7 +51,7 @@ const ServicesComponent = () => {
             <p>
               We ensure your business shines by analyzing, refining, and optimizing every facet of your business for a lasting brand impact.
             </p>
-            <button style={{backgroundColor: "#182659", padding: "15px 25px", borderRadius:"15px", border: "none"}} className="book"><a style={{textDecoration: "none", color: "white", fontSize: "18px", fontWeight: "bold"}} href="https://calendar.app.google/A7b9Pyojjv1rj6sc7">Get Started</a></button>
+            <button style={{backgroundColor: "#182659", padding: "15px 25px", borderRadius:"15px", border: "none"}} className="book"><a style={{textDecoration: "none", color: "white", fontSize: "18px", fontWeight: "bold"}} href="/grow-brand">Get Started</a></button>
           </div>
           <div
             className="col-md-5 p-5 bg-white shadow me-4 mb-sm-3 sartor-sm-mb"
@@ -65,7 +65,7 @@ const ServicesComponent = () => {
             <p>Sales & Marketing Strategy</p>
             <p>Deals</p>
             <p>Partnerships and more</p>
-            <button style={{backgroundColor: "#182659", padding: "15px 25px", borderRadius:"15px", border: "none"}} className="book"><a style={{textDecoration: "none", color: "white", fontSize: "18px", fontWeight: "bold"}} href="https://calendar.app.google/A7b9Pyojjv1rj6sc7">Get Started</a></button>
+            <button style={{backgroundColor: "#182659", padding: "15px 25px", borderRadius:"15px", border: "none"}} className="book"><a style={{textDecoration: "none", color: "white", fontSize: "18px", fontWeight: "bold"}} href="/grow-business">Get Started</a></button>
           </div>
           <div
             className="col-md-5 p-5 bg-white shadow mb-sm-3 sartor-sm-mb"
@@ -78,7 +78,7 @@ const ServicesComponent = () => {
             <p>Industry-Specific Focus</p>
             <p>Personalized programs to enhance your leadership skills.</p>
             <p>Strategic guidance to help you become an industry leader.</p>
-            <button style={{backgroundColor: "#182659", padding: "15px 25px", borderRadius:"15px", border: "none"}} className="book"><a style={{textDecoration: "none", color: "white", fontSize: "18px", fontWeight: "bold"}} href="https://calendar.app.google/A7b9Pyojjv1rj6sc7">Get Started</a></button>
+            <button style={{backgroundColor: "#182659", padding: "15px 25px", borderRadius:"15px", border: "none"}} className="book"><a style={{textDecoration: "none", color: "white", fontSize: "18px", fontWeight: "bold"}} href="/lead-business">Get Started</a></button>
           </div>
         </div>
       </div>

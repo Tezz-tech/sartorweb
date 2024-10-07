@@ -53,7 +53,7 @@ const Navigation = () => {
             </Nav.Link>
           </Nav>
           <Nav className="ml-auto w-100 d-flex align-items-center justify-content-around">
-            <button className="book"><a href="https://calendar.app.google/A7b9Pyojjv1rj6sc7">Book a Consultation</a></button>
+            <button className="book"><a href="https://mailchi.mp/sartor.ng/free-30mins-business-consulting-discovery-call">Book a Consultation</a></button>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

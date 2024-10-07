@@ -11,6 +11,9 @@ import Footer from "./common/footer";
 import Consultation from "./pages/Consultation";
 import CreateBlog from "./pages/CreateBlog";
 import SingleBlog from "./pages/SingleBlog";
+import BrandDescriptionPage from "./pages/BrandDescriptionPage";
+import GrowBusiness from "./pages/GrowBusiness";
+import LeaderDescription from "./pages/LeaderDescription";
 function App() {
   return (
     <div className="App">
@@ -25,6 +28,10 @@ function App() {
           <Route path="/start-a-business" element={<StartBusiness />} />
           <Route path="/create-blog" element={<CreateBlog />} />
           <Route path="/blog/:id" element={<SingleBlog />} />
+          <Route path="/grow-brand" element={<BrandDescriptionPage />} />
+          <Route path="/grow-business" element={<GrowBusiness />} />
+          <Route path="/lead-business" element={<LeaderDescription />} />
+          <Route path="/start-business" element={<StartBusiness />} />
         </Routes>
         <Footer />
       </BrowserRouter>
