@@ -10,6 +10,7 @@
     background-size: cover;
     background-position: bottom;
     height: 100%;
+    padding-top: 20px;
 }
 
 .profile{
@@ -102,10 +103,16 @@
     border-radius: 50%;
 }
 
-.details2 p{
-    color: rgba(255, 255, 255, 0.562);
+ .blog-content p, li{
+    color: rgb(255, 255, 255);
     margin-left: 50px;
     font-size: 18px;
+}
+
+h4{
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+    font-size: 23px;
 }
 
 .commen{
@@ -115,4 +122,8 @@
     width: 75%;
     margin: auto;
     padding: 50px 0px 20px 0px ;
+}
+
+.blogimg{
+    padding-bottom: 30px;
 }
